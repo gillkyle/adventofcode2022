@@ -125,6 +125,7 @@ groups.forEach((group) => {
   console.log(intersection);
   // add all intersection letters to the badgeSet Set
   intersection.forEach((letter) => {
+    // @ts-ignore doesnt need this
     badgeSet.push(letter);
   });
 });
