@@ -94,6 +94,7 @@ items.forEach((item) => {
   // add all intersection letters to the doubleItems Set
   intersection.forEach((letter) => {
     doubleItems.add(letter);
+    // @ts-ignore works fine
     doubleItemsArray.push(letter);
   });
 });
